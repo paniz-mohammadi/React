@@ -1,5 +1,5 @@
 import React from 'react';
-import { GridComponent, ColumnsDirective, ColumnDirective, Page, Search, Edit, Inject, Toolbar} from '@syncfusion/ej2-react-grids';
+import { GridComponent, ColumnsDirective, ColumnDirective, Page, Search, Inject, Toolbar} from '@syncfusion/ej2-react-grids';
 
 import { employeesData, employeesGrid } from '../data/dummy';
 import { Header } from '../components';
@@ -13,7 +13,7 @@ const Employees = () => {
         allowPaging
         allowSorting
         toolbar={['Search']}
-        wicth="auto"
+        width="auto"
       >
         <ColumnsDirective>
           {employeesGrid.map((item, index) => <ColumnDirective key={index} {...item} />)}

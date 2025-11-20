@@ -13,6 +13,7 @@
     "@syncfusion/ej2-react-popups": "^19.4.52",
     "@syncfusion/ej2-react-richtexteditor": "^19.4.50",
     "@syncfusion/ej2-react-schedule": "^19.4.50",
+    "gh-pages": "^6.3.0",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.4",
     "react-dom": "^18.3.1",
@@ -23,6 +24,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

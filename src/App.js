@@ -2,7 +2,7 @@ import React from 'react';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import {FiSettings} from 'react-icons/fi';
 import {TooltipComponent} from '@syncfusion/ej2-react-popups';
-import {Navbar, Footer, Sidebar, ThemaSettings} from './components';
+import {Navbar, Sidebar} from './components';
 import {Ecommerce, Orders, Calendar, Employees, Stacked, Pyramid, Customers, Kanban, Line, Area, Bar, Pie, Financial, ColorPicker, ColorMapping, Editor} from './pages';
 import {useStateContext} from './contexts/ContextProvider';
 import './App.css';

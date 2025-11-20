@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { useStateContext } from '../contexts/ContextProvider';
 
 const Button = ({color, size, text, borderRadius }) => {

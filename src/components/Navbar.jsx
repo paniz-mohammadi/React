@@ -30,7 +30,7 @@ const Navbar = () => {
     handleResize();
 
     return () => window.removeEventListener('resize', handleResize);
-  }, []);
+  }, [setScreenSize]);
 
   useEffect(() => {
     if(screenSize <= 900) {
@@ -74,7 +74,7 @@ const Navbar = () => {
            onClick={() => handleClick('userProfile')}>
             <img
               className="rounded-full w-8 h-8"
-              src={profile}
+              src={profile} alt="User profile"
             />
             <p>
               <span className="text-gray-400 text-14">Hi,</span>{' '}
